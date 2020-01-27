@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Librus oceny okresowe</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> <!-- jQuery -->
+        <script src="https://kit.fontawesome.com/e01a4f2eaf.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+        <script src="Dependiences/script.js"></script> <!-- Own script -->
+        <link rel="stylesheet" type="text/css" href="Dependiences/style.css"> <!-- stylesheet -->
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Rubik&display=swap" rel="stylesheet"> <!-- Fonts -->
+    </head>
+    <body>
+        <header id="header">Librus oceny okresowe</header>
+
+        <div id="top" class="topClassBeg">
+            <div id="maxLabel" class="topLabel">
+                Wpisz maksymalną ilość punktów:
+            </div>
+            <div id="maxInput" class="topInput">
+                <input type="number" id="maxI" placeholder="0" class="bigInput">
+            </div>
+            <div id="topSeparator" class="dbSeparator">'</div>
+            <div id="template" class="topLabel">
+                Wybierz szablon:
+            </div>
+            <div id="radioInputs" class="topInput">
+                <button id="temp0" class="tempButton bigButton bigButtonPressed">x / y</button>
+                <button id="temp1" class="tempButton bigButton">x / y z%</button>
+                <button id="temp2" class="tempButton bigButton">z%</button>
+            </div>
+            <div id="topSeparator" class="dbSeparator">'</div>
+        </div>
+
+        <div id="results" class="insertStudentsNumber">
+            <div id="nStudents" class="topLabel">
+                Wpisz ilość uczniów:
+            </div>
+            <div id="studentsInput" class="topInput">
+                <input type="number" id="stuI" placeholder="0" class="bigInput">
+            </div>
+            <div id="studentsButton">
+                <button class="bigButton" id="submitButton">Wprowadź</button>
+            </div>
+            <div id="dRadio" class="topLabel">
+                Wybierz kierunek:
+            </div>
+            <div id="dirInput" class="topInput">
+                <button id="dir0" class="dirButton bigButton bigButtonPressed"><i class="fas fa-long-arrow-alt-right"></i></button>
+                <button id="dir1" class="dirButton bigButton"><i class="fas fa-long-arrow-alt-down"></i></button>
+            </div>
+        </div>
+
+        <footer>Created by RCRalph</footer>
+    </body>
+</html>

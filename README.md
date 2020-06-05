@@ -95,7 +95,7 @@ Aby otrzymać wyniki, należy nacisnąć przycisk z napisem "Pobierz plik".<br>
 
 W folderze "Pobrane" na komputerze użytkownika powinien znajdować się plik o nazwie "wyniki.txt". Nie należy go edytować ani zmieniać jego nazwy.
 
-## Wklejanie wyników do Librusa
+## Wklejanie wyników do Librusa - możliwe tylko przy użyciu systemu Windows
 
 Po otrzymaniu pliku z wynikami należy go wyciąć, wrócić do folderu "Librus-oceny-okresowe", wejść do folderu "Wklej wyniki" i wkleić plik z wynikami do folderu "wyniki". Następnie należy uruchomić program "paste scores.exe"<br>
 ![](https://i.imgur.com/fF513mT.gif)
